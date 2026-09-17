@@ -58,7 +58,10 @@ hi ColorColumn cterm=NONE ctermbg=234 ctermfg=NONE guibg=#16161c guifg=NONE
 hi CursorColumn cterm=NONE ctermbg=234 ctermfg=NONE guibg=#16161c guifg=NONE
 hi CursorLine cterm=NONE ctermbg=234 ctermfg=NONE guibg=#16161c guifg=NONE
 " hi Comment cterm=italic ctermfg=238 gui=italic guifg=#43444d
-hi Comment cterm=italic ctermfg=238 gui=italic guifg=#5d5d5d
+" hi Comment cterm=italic ctermfg=238 gui=italic guifg=#5d5d5d
+" hi Comment cterm=italic ctermfg=238 gui=italic guifg=#f1a0fa guibg=#655167
+" hi Comment cterm=italic ctermfg=238 gui=italic guifg=#575861 guibg=#22222a
+hi Comment cterm=italic ctermfg=238 gui=italic guifg=#868690 guibg=#22222a
 hi Conceal ctermbg=233 ctermfg=240 guibg=#0a0b04 guifg=#575861
 " hi Constant ctermfg=60 guifg=#626983
 hi Constant ctermfg=60 guifg=#c58fff
