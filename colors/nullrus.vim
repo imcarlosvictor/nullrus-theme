@@ -53,22 +53,19 @@ let g:colors_name = 'nullrus'
 "   ghostwhite #e2e4ed  ghost-white     -- was white #fdfdfe  (parameters/links/emphasis)
 
 hi Normal ctermbg=233 ctermfg=245 guibg=#0a0b04 guifg=#999eb2
-" hi ColorColumn cterm=NONE ctermbg=234 ctermfg=NONE guibg=#16161c guifg=NONE
-" hi CursorColumn cterm=NONE ctermbg=234 ctermfg=NONE guibg=#16161c guifg=NONE
-" hi CursorLine cterm=NONE ctermbg=234 ctermfg=NONE guibg=#16161c guifg=NONE
 hi CursorColumn cterm=NONE ctermbg=234 ctermfg=NONE guibg=#0a0b04 guifg=NONE
 hi ColorColumn cterm=NONE ctermbg=234 ctermfg=NONE guibg=#0a0b04 guifg=NONE
 " hi CursorLine cterm=NONE ctermbg=234 ctermfg=NONE guibg=#0a0b04 guifg=NONE
 hi CursorLine cterm=NONE ctermbg=234 ctermfg=NONE guibg=NONE guifg=NONE
-hi Comment cterm=italic ctermfg=238 gui=italic guibg=#43444d guifg=#0a0b04
+hi Comment cterm=italic ctermfg=238 gui=italic guibg=NONE guifg=#43444d
 hi Conceal ctermbg=233 ctermfg=240 guibg=#0a0b04 guifg=#575861
 " hi Constant ctermfg=60 guifg=#aabbc5
 " hi Constant ctermfg=60 guifg=#506385
 " hi Constant ctermfg=60 guifg=#c58fff
 " hi Constant ctermfg=60 guifg=#00dd9a
 hi Constant ctermfg=60 guifg=#7aaeee
-" hi Cursor ctermbg=103 ctermfg=245 guibg=#7c829d guifg=#868690
-hi Cursor ctermbg=103 ctermfg=245 guibg=#0a0b04 guifg=#00a86b
+hi Cursor ctermbg=103 ctermfg=245 guibg=#7c829d guifg=#868690
+" hi Cursor ctermbg=103 ctermfg=245 guibg=#0a0b04 guifg=#00a86b
 " hi CursorLineNr cterm=NONE ctermbg=234 ctermfg=245 guibg=#e2e4ed guifg=#16161c
 hi CursorLineNr cterm=NONE ctermbg=234 ctermfg=245 guibg=#43444d guifg=#e2e4ed
 hi Delimiter ctermfg=240 guifg=#575861
